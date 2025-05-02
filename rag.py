@@ -13,7 +13,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyAGR9qlABGdihnf-tdxNLxnrxUplelt5hU"
+os.environ['GOOGLE_API_KEY'] = "XXXXXXXXXXXX" # Ici remplacez par votre API Key !!!
 gemini_embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-lite", temperature=0.7, top_p=0.85)
 
